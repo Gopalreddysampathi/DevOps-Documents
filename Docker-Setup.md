@@ -29,7 +29,13 @@ curl -fsSL get.docker.com | /bin/bash
 sudo usermod -aG docker ubuntu 
 exit
 ```
+## Intigartion with jenkins to docker
 
+
+```bash
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+```
 ## Verify docker installation
 
 
